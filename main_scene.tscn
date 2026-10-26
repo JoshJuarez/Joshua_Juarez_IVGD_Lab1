@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cvp763u44uxky"]
 
 [ext_resource type="Texture2D" uid="uid://fk2njld6s5py" path="res://Soldier.png" id="1_2c62f"]
+[ext_resource type="Script" uid="uid://800jxrlylfp7" path="res://character.gd" id="2_d5x1h"]
 [ext_resource type="PackedScene" uid="uid://ddhwno0c24ybr" path="res://tree.tscn" id="2_gyfs4"]
 
 [node name="Node2D" type="Node2D" unique_id=1200829281]
@@ -22,6 +23,7 @@ position = Vector2(0, 101)
 position = Vector2(124, -4)
 
 [node name="Character" type="Node2D" parent="." unique_id=770647974]
+script = ExtResource("2_d5x1h")
 
 [node name="Character_Sprite2D" type="Sprite2D" parent="Character" unique_id=64670256]
 position = Vector2(90, 89)
